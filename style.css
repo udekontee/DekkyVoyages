@@ -77,7 +77,7 @@ nav {
   background-color: #005bb5;
 }
 
-/* === Services Card Layout === */
+/* === Services Card Layout (Legacy Support) === */
 .service-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -124,13 +124,6 @@ section {
 }
 
 section h2 {
-
-/* === Page Sections === */
-section {
-  padding: 60px 20px;
-}
-
-section h2 {
   margin-top: 0;
   color: #004080;
 }
@@ -156,7 +149,7 @@ section h2 {
   margin-bottom: 1rem;
 }
 
-  /* === Services Section === */
+/* === Services Section === */
 #services {
   padding: 60px 20px;
   background-color: #ffffff;
@@ -190,5 +183,3 @@ section h2 {
   margin-bottom: 1rem;
   color: #0066cc;
 }
-
-
