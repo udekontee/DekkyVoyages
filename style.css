@@ -125,3 +125,23 @@ section {
 
 section h2 {
   m
+
+  #home-intro {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f5faff;
+}
+
+#home-intro h2 {
+  color: #004080;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#home-intro p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
