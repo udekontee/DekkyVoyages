@@ -1,33 +1,144 @@
-<section id="services">
-  <h2>Our Services</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dekky Voyages Inc.</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .service-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
 
-  <section id="vacation-packages">
-    <h3>All-Inclusive Vacation Packages</h3>
-    <p>Take the stress out of planning with our expertly curated all-inclusive vacation packages. Whether you're dreaming of a romantic beachfront escape, a family resort adventure, or a luxury spa retreat, we offer tailored options that include flights, accommodations, meals, activities, and more — all bundled into one seamless experience. As your trusted advisor, I ensure you get the best value with no hidden surprises, working only with reputable resort brands across the Caribbean, Mexico, Europe, and beyond.</p>
-    <p>Let Dekky Voyages Inc. handle the details, so you can focus on creating memories that last a lifetime.</p>
-  </section>
+    .service-card {
+      background-color: #ffffff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
 
-  <section id="cruises">
-    <h3>Caribbean & Mediterranean Cruises</h3>
-    <p>Embark on a spectacular journey by sea with our Caribbean and Mediterranean cruise offerings. From tropical island hopping to historic coastal explorations, I work with top cruise lines to match you with the right itinerary, ship, and experience. Whether it’s a family cruise, romantic getaway, or group voyage, your cruise includes accommodations, meals, entertainment, and guided shore excursions — all in one unforgettable package.</p>
-    <p>We'll help you sail with ease and style, ensuring your cruise is relaxing, exciting, and perfectly planned from port to port.</p>
-  </section>
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    }
 
-  <section id="honeymoons">
-    <h3>Honeymoons & Romantic Getaways</h3>
-    <p>Celebrate love with unforgettable honeymoon and romantic getaway experiences. I help couples find serene beaches, luxurious resorts, cozy villas, and exciting excursions tailored to your style and budget. Whether it’s a tropical paradise, cultural escape, or peaceful mountain retreat, I ensure every detail of your trip — from candlelit dinners to private transfers — is handled with care and elegance.</p>
-    <p>Make your first journey together as meaningful and memorable as your vows.</p>
-  </section>
+    .service-card h3 {
+      color: #004080;
+      margin-bottom: 0.75rem;
+    }
 
-  <section id="group-travel">
-    <h3>Family & Group Travel Planning</h3>
-    <p>Coordinating travel for multiple people can be overwhelming — but it doesn’t have to be. I specialize in organizing seamless travel for families, friend groups, reunions, corporate teams, school trips, and more. From selecting group-friendly accommodations to handling booking logistics, room arrangements, and special activities, I make sure everyone enjoys the experience with minimal stress.</p>
-    <p>With group discounts and personalized coordination, Dekky Voyages Inc. takes the work off your plate so you can focus on the fun.</p>
-  </section>
+    .service-card p {
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
 
-  <section id="flight-hotel-car">
-    <h3>Flight, Hotel & Car Booking Assistance</h3>
-    <p>Need help finding the best flights, the perfect hotel, or a reliable rental car? I provide personalized booking assistance that saves you time, money, and frustration. From economy to first-class flights, boutique hotels to all-suite resorts, and standard to luxury car rentals, I work with trusted travel partners to secure the best rates and amenities.</p>
-    <p>Whether it’s for business or leisure, every booking comes with professional support and peace of mind.</p>
-  </section>
-</section>
+    .service-card a {
+      text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
+    }
+
+    .service-card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">Dekky Voyages Inc.</div>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#why-travel">Why Travel</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Unforgettable Journeys. Exceptional Value.</h1>
+      <p>Travel smart with custom planning from a trusted advisor.</p>
+      <a href="#contact" class="cta-button">Get Started</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+
+        <div class="service-card">
+          <h3>All-Inclusive Vacation Packages</h3>
+          <p>Take the stress out of planning with our expertly curated all-inclusive vacation packages including flights, hotels, meals, and more.</p>
+          <a href="#vacation-packages">Read More</a>
+        </div>
+
+        <div class="service-card">
+          <h3>Caribbean & Mediterranean Cruises</h3>
+          <p>Sail in comfort with handpicked cruise experiences that include guided excursions, fine dining, and incredible destinations.</p>
+          <a href="#cruises">Read More</a>
+        </div>
+
+        <div class="service-card">
+          <h3>Honeymoons & Romantic Getaways</h3>
+          <p>Celebrate your love with a perfectly planned honeymoon or romantic escape, tailored to your style and budget.</p>
+          <a href="#honeymoons">Read More</a>
+        </div>
+
+        <div class="service-card">
+          <h3>Family & Group Travel Planning</h3>
+          <p>From reunions to school trips, we handle the logistics so your group can focus on fun and bonding.</p>
+          <a href="#group-travel">Read More</a>
+        </div>
+
+        <div class="service-card">
+          <h3>Flight, Hotel & Car Booking Assistance</h3>
+          <p>Let us secure the best flights, hotels, and car rentals — all personalized to fit your travel plans and preferences.</p>
+          <a href="#flight-hotel-car">Read More</a>
+        </div>
+
+      </div>
+
+      <section id="vacation-packages">
+        <h3>All-Inclusive Vacation Packages</h3>
+        <p>Take the stress out of planning with our expertly curated all-inclusive vacation packages. Whether you're dreaming of a romantic beachfront escape, a family resort adventure, or a luxury spa retreat, we offer tailored options that include flights, accommodations, meals, activities, and more — all bundled into one seamless experience. As your trusted advisor, I ensure you get the best value with no hidden surprises, working only with reputable resort brands across the Caribbean, Mexico, Europe, and beyond.</p>
+        <p>Let Dekky Voyages Inc. handle the details, so you can focus on creating memories that last a lifetime.</p>
+      </section>
+
+      <section id="cruises">
+        <h3>Caribbean & Mediterranean Cruises</h3>
+        <p>Embark on a spectacular journey by sea with our Caribbean and Mediterranean cruise offerings. From tropical island hopping to historic coastal explorations, I work with top cruise lines to match you with the right itinerary, ship, and experience. Whether it’s a family cruise, romantic getaway, or group voyage, your cruise includes accommodations, meals, entertainment, and guided shore excursions — all in one unforgettable package.</p>
+        <p>We'll help you sail with ease and style, ensuring your cruise is relaxing, exciting, and perfectly planned from port to port.</p>
+      </section>
+
+      <section id="honeymoons">
+        <h3>Honeymoons & Romantic Getaways</h3>
+        <p>Celebrate love with unforgettable honeymoon and romantic getaway experiences. I help couples find serene beaches, luxurious resorts, cozy villas, and exciting excursions tailored to your style and budget. Whether it’s a tropical paradise, cultural escape, or peaceful mountain retreat, I ensure every detail of your trip — from candlelit dinners to private transfers — is handled with care and elegance.</p>
+        <p>Make your first journey together as meaningful and memorable as your vows.</p>
+      </section>
+
+      <section id="group-travel">
+        <h3>Family & Group Travel Planning</h3>
+        <p>Coordinating travel for multiple people can be overwhelming — but it doesn’t have to be. I specialize in organizing seamless travel for families, friend groups, reunions, corporate teams, school trips, and more. From selecting group-friendly accommodations to handling booking logistics, room arrangements, and special activities, I make sure everyone enjoys the experience with minimal stress.</p>
+        <p>With group discounts and personalized coordination, Dekky Voyages Inc. takes the work off your plate so you can focus on the fun.</p>
+      </section>
+
+      <section id="flight-hotel-car">
+        <h3>Flight, Hotel & Car Booking Assistance</h3>
+        <p>Need help finding the best flights, the perfect hotel, or a reliable rental car? I provide personalized booking assistance that saves you time, money, and frustration. From economy to first-class flights, boutique hotels to all-suite resorts, and standard to luxury car rentals, I work with trusted travel partners to secure the best rates and amenities.</p>
+        <p>Whether it’s for business or leisure, every booking comes with professional support and peace of mind.</p>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dekky Voyages Inc. | All rights reserved.</p>
+    <p>Business Hours: Mon–Fri 9am–6pm EST</p>
+  </footer>
+
+</body>
+</html>
