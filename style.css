@@ -156,4 +156,39 @@ section h2 {
   margin-bottom: 1rem;
 }
 
+  /* === Services Section === */
+#services {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#services h2 {
+  text-align: center;
+  color: #004080;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.service-block {
+  background-color: #f5faff;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.service-block h3 {
+  color: #003366;
+  margin-bottom: 0.5rem;
+}
+
+.service-block .tagline {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #0066cc;
+}
+
 
